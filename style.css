@@ -1,0 +1,106 @@
+/* primery text */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Merriweather:wght@400;900&display=swap");
+
+/* ----- */
+
+.pri-Merriweather {
+  font-family: "Merriweather", serif;
+}
+.pri-Inter {
+  font-family: "Inter", sans-serif;
+}
+
+.headerbanner {
+  margin: 50px 140px auto 140px;
+}
+.black{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-blend-mode: multiply;
+}
+.happy1 {
+  position: absolute;
+  top: 30%;
+  left: 42%;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+}
+.happy2 {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  text-align: center;
+  width: 632px;
+  color: #fff;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
+/* header complate */
+
+.off {
+  color: #f00;
+
+  text-align: center;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.off1 {
+  color: #f00;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: -30px;
+}
+.off2 {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.newimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 3rd section */
+
+.rd-sec {
+  margin: 60px 140px auto 140px;
+}
+.Welcome {
+  position: absolute;
+  top: 30%;
+  left: 42%;
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+.rd-sec2 {
+  color: #fff;
+  position: absolute;
+  top: 240%;
+  left: 15%;
+  font-size: 54px;
+  width: 600px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+.rd-sec3 {
+    position: absolute;
+  top: 280%;
+  left: 15%;
+  color: rgba(255, 255, 255, 0.8);
+  width: 600px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
