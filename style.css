@@ -41,7 +41,7 @@
   text-transform: uppercase;
   padding: 15px 30px;
   border-radius: 8px;
-  background-color: #ECA646;
+  background-color: #000000;
   border: 0;
 }
 
@@ -98,7 +98,7 @@ main {
   align-items: center;
 }
 
-/* Discount Styles */
+/* Discount */
 
 .discount{
   display: flex;
@@ -106,7 +106,6 @@ main {
   justify-content: center;
   align-items: center;
 }
-
 .discount h2 {
   color: #f80000;
   text-align: center;
@@ -115,17 +114,17 @@ main {
   font-weight: 700;
   margin-bottom: 45px;
 }
-
 .discount img {
   width: 750px;
   height: 460px;
   margin-top: 25px;
   margin-bottom: 110px;
 }
+/* Discount */
 
-/* Midnight Party Styles */
+/* Party  */
 
-.party-section {
+.party {
   display: flex;
   gap: 40px;
   justify-content: center;
@@ -138,12 +137,10 @@ main {
   background-position: center;
   margin: 0px auto 110px;
 }
-
-.party-section div {
+.party div {
   width: 50%;
 }
-
-.party-section h1 {
+.party h1 {
   color: #FFF;
   font-family: Merriweather;
   font-size: 60px;
@@ -151,14 +148,38 @@ main {
   line-height: 82px;
   letter-spacing: 6px;
 }
-
-.party-section p {
-  color: rgba(255, 255, 255, 0.80);
+.party p {
+  color: rgb(255, 255, 255);
   font-family: Inter;
   font-size: 16px;
   line-height: 28px;
   margin-bottom: 20px;
 }
+/* Party  */
+
+/* comming */
+
+.comming-offer{
+  display: flex;
+  width: 1230px;
+  height: 560px;
+}
+.comming-img-red{
+  width: 330px;
+  height: 330px;
+  background-color: #FFF;
+  border: 12px solid red;
+  border-radius: 50%;
+}
+.comming-text2{
+  padding-left: 20px;
+}
+.comming-text2 img{
+  padding-top: 10px;
+}
+
+/* comming */
+
 
 /* Portfolio Styles */
 
@@ -179,20 +200,23 @@ main {
   border: 5px solid #eca74600;
 }
 
+.img-container img:hover {
+  transform: scale(1.5);
+}
+
 .img-container img {
   transition: transform 2s ease;
 }
 
-.img-container img:hover {
-  transform: scale(1.5);
-}
+
 
 .img-container:hover {
   border: 5px solid #899b6c;
 }
 
-/* Newsletter Styles */
-.newsletter-section {
+
+/* newsletter */
+.newsletter {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -203,17 +227,18 @@ main {
   margin: 0 130px 110px;
 }
 
-.newsletter-section img {
+.newsletter img {
   margin-bottom: 40px;
 }
 
-.newsletter-section .section-description {
+.newsletter .newsletter-description {
   text-align: center;
   width: 60%;
+  margin-bottom: 10px;
 }
 
 
-.newsletter-section input[type="email"] {
+.newsletter input[type="email"] {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   padding: 24px 28px;
@@ -224,13 +249,13 @@ main {
   font-size: 16px;
 }
 
-.newsletter-section input[type="email"]:focus {
+.newsletter input[type="email"]:focus {
   outline: 2px solid #ffffff;
   border: 0px;
 }
 
 
-.newsletter-section input[type="submit"] {
+.newsletter input[type="submit"] {
   position: relative;
   left: -5px;
   color: #FFF;
@@ -244,9 +269,10 @@ main {
   border: 0;
   padding: 24px 28px;
 }
+/* newsletter */
 
 
-/* Footer Styles */
+/* Footer */
 
 footer {
   background-color: #070211;
@@ -292,3 +318,8 @@ footer hr {
   width: 60px;
   margin-left: 22px;
 }
+.footer-info a{
+  text-decoration: none;
+  color: #FFF;
+}
+/* Footer */
