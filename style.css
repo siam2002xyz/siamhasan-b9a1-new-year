@@ -114,8 +114,8 @@ main {
   margin-bottom: 45px;
 }
 .discount img {
-  width: 750px;
-  height: 460px;
+  width: 550px;
+  height: 360px;
   margin-top: 25px;
   margin-bottom: 110px;
 }
@@ -209,6 +209,9 @@ main {
   background-repeat: no-repeat;
   background-image: url("resources/girlswithbag.png");
   background-position: right;
+}
+.discriptio5o-secend-layre img{
+  margin: 40px 5px auto 750px;
 }
 .discount50 .dis50 {
   padding-left: 25%;
