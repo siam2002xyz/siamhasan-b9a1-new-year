@@ -1,125 +1,294 @@
-/* primery text */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Merriweather:wght@400;900&display=swap");
+/* Fonts Added */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;900&display=swap');
 
-/* ----- */
-
-.pri-Merriweather {
-  font-family: "Merriweather", serif;
-}
-.pri-Inter {
-  font-family: "Inter", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.headerbanner {
-  margin: 50px 140px auto 140px;
-}
-.black {
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  background-blend-mode: multiply;
-}
-.happy1 {
-  position: absolute;
-  top: 30%;
-  left: 42%;
-  color: #fff;
-  font-size: 32px;
-  font-weight: 400;
-}
-.happy2 {
-  position: absolute;
-  top: 40%;
-  left: 30%;
-  text-align: center;
-  width: 632px;
-  color: #fff;
-  font-size: 72px;
-  font-weight: 900;
-  line-height: 95px;
-}
-/* header complate */
-
-.off {
-  color: #f00;
-
-  text-align: center;
-  font-size: 88px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-.off1 {
-  color: #f00;
-  text-align: center;
-  font-size: 24px;
+/* Common-user */
+.sub-title {
+  color: #ff0000;
+  font-family: Inter;
+  font-size: 22px;
   font-weight: 500;
-  margin-bottom: -30px;
+  margin-bottom: 15px;
 }
-.off2 {
+
+.title {
   color: #070211;
-  text-align: center;
-  font-size: 48px;
+  font-family: Inter;
+  font-size: 45px;
   font-weight: 700;
-  margin-bottom: 30px;
-}
-.newimg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 20px;
 }
 
-/* 3rd section */
-
-.rd-sec {
-  background-image: url("resources/Vectorrr.png");
-  background-repeat: no-repeat;
-  border-radius: 20px;
-  margin: 69px 140px auto 140px;
-  display: flex;
-}
-
-.rd-sec2 {
-  color: #fff;
-  position: absolute;
-  top: 240%;
-  left: 15%;
-  font-size: 54px;
-  width: 600px;
-  font-weight: 900;
-  line-height: 88px;
-  letter-spacing: 7.04px;
-}
-.rd-sec3 {
-  position: absolute;
-  top: 280%;
-  left: 15%;
-  color: rgba(255, 255, 255, 0.8);
-  width: 600px;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 30px;
-}
-.Group70 {
-  margin-top: 60px;
-  margin-bottom: 40px;
-  margin-right: 40px;
-  margin-left: 150px;
-  padding-left: 600px;
-  padding-top: -30%;
-  background-position: left center;
-}
-.join button {
-  background-color: #070211;
-  color: #fff;
+.section-description {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
   font-size: 18px;
-  border: 1px solid #070211;
-  text-transform: uppercase;
+  line-height: 30px;
+  width: 50%;
+  margin-bottom: 45px;
 }
-.join {
-  margin-top: 380px;
-  margin-left: -990px;
-  color: #fff;
-  font-size: 20px;
+
+.btn-primary {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
+  padding: 15px 30px;
+  border-radius: 8px;
+  background-color: #ECA646;
+  border: 0;
+}
+
+/* main banner */
+.main-banner {
+  width: 1230px;
+  height: 560px;
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Banner-Image.png');
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-banner h4 {
+  color: #FFF;
+  text-align: center;
+  font-family: Merriweather;
+  margin-bottom: 18px;
+  font-size: 30px;
+  
+}
+
+.main-banner h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 100px;
+}
+/* main banner complate */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 45px 130px 110px;
+}
+
+/* Hero Banner Styles */
+
+
+
+/* Main Styles */
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Discount Styles */
+
+.discount{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.discount h2 {
+  color: #f80000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 82px;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+
+.discount img {
+  width: 750px;
+  height: 460px;
+  margin-top: 25px;
+  margin-bottom: 110px;
+}
+
+/* Midnight Party Styles */
+
+.party-section {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  width: 1230px;
+  height: 560px;
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Vectorrr.png');
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  margin: 0px auto 110px;
+}
+
+.party-section div {
+  width: 50%;
+}
+
+.party-section h1 {
+  color: #FFF;
+  font-family: Merriweather;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 82px;
+  letter-spacing: 6px;
+}
+
+.party-section p {
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+/* Portfolio Styles */
+
+.portfolio-section {
+  margin-bottom: 110px;
+}
+
+.column {
+  display: flex;
+  gap: 22px;
+  margin-bottom: 22px;
+}
+
+.img-container {
+  height: 420px;
+  overflow: hidden;
+  border-radius: 15px;
+  border: 5px solid #eca74600;
+}
+
+.img-container img {
+  transition: transform 2s ease;
+}
+
+.img-container img:hover {
+  transform: scale(1.5);
+}
+
+.img-container:hover {
+  border: 5px solid #899b6c;
+}
+
+/* Newsletter Styles */
+.newsletter-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: rgba(236, 166, 70, 0.10);
+  padding: 75px 200px;
+  margin: 0 130px 110px;
+}
+
+.newsletter-section img {
+  margin-bottom: 40px;
+}
+
+.newsletter-section .section-description {
+  text-align: center;
+  width: 60%;
+}
+
+
+.newsletter-section input[type="email"] {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding: 24px 28px;
+  width: 400px;
+  background-color: #FFF;
+  border: 0;
+  font-family: Inter;
+  font-size: 16px;
+}
+
+.newsletter-section input[type="email"]:focus {
+  outline: 2px solid #ffffff;
+  border: 0px;
+}
+
+
+.newsletter-section input[type="submit"] {
+  position: relative;
+  left: -5px;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 0px 45px 45px 0px;
+  background-color: #ff0000;
+  text-transform: capitalize;
+  border: 0;
+  padding: 24px 28px;
+}
+
+
+/* Footer Styles */
+
+footer {
+  background-color: #070211;
+  padding: 130px 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-info {
+  display: flex;
+  gap: 500px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-info p {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.footer-contacts {
+  display: flex;
+  gap: 15px;
+  justify-content: start;
+  align-items: center;
+}
+
+footer hr {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  margin: 45px 0;
+}
+
+.social {
+  margin: 0 auto;
+}
+
+.social img {
+  width: 60px;
+  margin-left: 22px;
 }
