@@ -159,7 +159,11 @@ main {
 .location-info {
   width: 1320px;
   height: 482px;
-  background-color:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+  background-color: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
   margin-bottom: 30px;
 }
 .location-info .Date {
@@ -185,6 +189,45 @@ main {
   margin: 140px 477px 126px 608px;
 }
 /* location */
+
+/* discount 50% */
+.discount50 {
+  width: 1320px;
+  height: 916px;
+  margin-bottom: 30px;
+}
+.discount50-fast-layre{
+  text-align: center;
+  color: #ff0909;
+  font-family: Merriweather;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+
+}
+
+.discriptio5o-secend-layre {
+  width: 1320px;
+  height: 433px;
+  background-repeat: no-repeat;
+  background-image: url("resources/girlswithbag.png");
+  background-position: right;
+}
+.discount50 .dis50{
+  padding-left: 25%;
+
+}
+.discount50-third-layre{
+  width: 1320px;
+height: 229px;
+  background-image: url("resources/redbg.png");
+
+}
+.discount50-third-layre img{
+  margin: -400px 30px 100px;
+}
+
+/* discount 50% */
 
 /* comming */
 
@@ -213,6 +256,7 @@ main {
 
 .portfolio-section {
   margin-bottom: 110px;
+
 }
 
 .column {
